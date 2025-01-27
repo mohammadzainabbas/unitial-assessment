@@ -1,0 +1,7 @@
+[project]
+name = "unitial-assessment"
+version = "0.1.0"
+description = "A mini project to process data and show some KPIs as an assessment for Unitial"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []

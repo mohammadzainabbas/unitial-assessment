@@ -1,0 +1,142 @@
+[
+  {
+    "id": "9174277a",
+    "manufacturer": "Caterpillar",
+    "type": "excavator",
+    "fuel_type": "electric",
+    "battery_size": 115
+  },
+  {
+    "id": "ab13141f",
+    "manufacturer": "Caterpillar",
+    "type": "crane",
+    "fuel_type": "electric",
+    "battery_size": 412
+  },
+  {
+    "id": "fdf0c409",
+    "manufacturer": "Liebherr",
+    "type": "bulldozer",
+    "fuel_type": "diesel",
+    "fuel_tank_size": 48
+  },
+  {
+    "id": "06c13c84",
+    "manufacturer": "Hitachi",
+    "type": "forklift",
+    "fuel_type": "diesel",
+    "fuel_tank_size": 202
+  },
+  {
+    "id": "3771cc43",
+    "manufacturer": "Komatsu",
+    "type": "bulldozer",
+    "fuel_type": "electric",
+    "battery_size": 266
+  },
+  {
+    "id": "39094f50",
+    "manufacturer": "Komatsu",
+    "type": "excavator",
+    "fuel_type": "diesel",
+    "fuel_tank_size": 33
+  },
+  {
+    "id": "65b825ac",
+    "manufacturer": "Hitachi",
+    "type": "wheel_loader",
+    "fuel_type": "diesel",
+    "fuel_tank_size": 68
+  },
+  {
+    "id": "174d96d9",
+    "manufacturer": "Volvo",
+    "type": "excavator",
+    "fuel_type": "electric",
+    "battery_size": 434
+  },
+  {
+    "id": "046a1338",
+    "manufacturer": "Caterpillar",
+    "type": "wheel_loader",
+    "fuel_type": "diesel",
+    "fuel_tank_size": 187
+  },
+  {
+    "id": "72f3c167",
+    "manufacturer": "Komatsu",
+    "type": "wheel_loader",
+    "fuel_type": "diesel",
+    "fuel_tank_size": 113
+  },
+  {
+    "id": "f0a69475",
+    "manufacturer": "Caterpillar",
+    "type": "bulldozer",
+    "fuel_type": "diesel",
+    "fuel_tank_size": 172
+  },
+  {
+    "id": "7a13af83",
+    "manufacturer": "Volvo",
+    "type": "wheel_loader",
+    "fuel_type": "diesel",
+    "fuel_tank_size": 180
+  },
+  {
+    "id": "b878cb5b",
+    "manufacturer": "Volvo",
+    "type": "crane",
+    "fuel_type": "diesel",
+    "fuel_tank_size": 31
+  },
+  {
+    "id": "b151f3cf",
+    "manufacturer": "Komatsu",
+    "type": "crane",
+    "fuel_type": "electric",
+    "battery_size": 558
+  },
+  {
+    "id": "8645afde",
+    "manufacturer": "Volvo",
+    "type": "forklift",
+    "fuel_type": "diesel",
+    "fuel_tank_size": 49
+  },
+  {
+    "id": "3ec3e26c",
+    "manufacturer": "Liebherr",
+    "type": "wheel_loader",
+    "fuel_type": "electric",
+    "battery_size": 434
+  },
+  {
+    "id": "43215c19",
+    "manufacturer": "Komatsu",
+    "type": "excavator",
+    "fuel_type": "diesel",
+    "fuel_tank_size": 227
+  },
+  {
+    "id": "38de4d48",
+    "manufacturer": "Liebherr",
+    "type": "wheel_loader",
+    "fuel_type": "diesel",
+    "fuel_tank_size": 127
+  },
+  {
+    "id": "ae6a5a84",
+    "manufacturer": "Hitachi",
+    "type": "forklift",
+    "fuel_type": "electric",
+    "battery_size": 508
+  },
+  {
+    "id": "9e69c463",
+    "manufacturer": "Hitachi",
+    "type": "bulldozer",
+    "fuel_type": "diesel",
+    "fuel_tank_size": 104
+  }
+]
