@@ -26,8 +26,8 @@ jobs:
       - name: Install UV
         run: curl -LsSf https://astral.sh/uv/install.sh | sh
       
-      - name: Install dependencies (from `pyproject.toml`)
-        run: uv pip install -r pyproject.toml --all-extras
+      - name: Install and sync dependencies
+        run: uv sync
       
       - name: Run tests
-        run: pytest tests/
+        run: PYTHONPATH=. uv run -- pytest tests/
