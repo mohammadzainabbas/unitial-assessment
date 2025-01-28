@@ -1,166 +1,150 @@
 {
-  "analysis": [
-    {
-      "machine_id": "fdf0c409",
-      "hours_worked": 104.63,
-      "avg_start_time": "2023-05-01T07:09:21.295000",
-      "avg_end_time": "2023-05-05T15:47:06.422000",
-      "consumption": 38.33,
-      "consumption_unit": "L"
-    },
-    {
-      "machine_id": "38de4d48",
-      "hours_worked": 105.12,
-      "avg_start_time": "2023-05-01T07:23:56.356000",
-      "avg_end_time": "2023-05-05T16:30:51.438000",
-      "consumption": 86.52,
-      "consumption_unit": "L"
-    },
-    {
-      "machine_id": "8645afde",
-      "hours_worked": 103.58,
-      "avg_start_time": "2023-05-01T07:44:19.898000",
-      "avg_end_time": "2023-05-05T15:19:23.106000",
-      "consumption": 39.06,
-      "consumption_unit": "L"
-    },
-    {
-      "machine_id": "06c13c84",
-      "hours_worked": 106.37,
-      "avg_start_time": "2023-05-01T06:24:20.071000",
-      "avg_end_time": "2023-05-05T16:46:41.840000",
-      "consumption": 163.22,
-      "consumption_unit": "L"
-    },
-    {
-      "machine_id": "f0a69475",
-      "hours_worked": 104.42,
-      "avg_start_time": "2023-05-01T07:29:40.591000",
-      "avg_end_time": "2023-05-05T15:55:05.165000",
-      "consumption": 139.71,
-      "consumption_unit": "L"
-    },
+  "machine_metrics": [
     {
       "machine_id": "9174277a",
-      "hours_worked": 104.41,
-      "avg_start_time": "2023-05-01T07:01:14.445000",
-      "avg_end_time": "2023-05-05T15:25:53.283000",
-      "consumption": 79.52,
-      "consumption_unit": "kWh"
-    },
-    {
-      "machine_id": "ae6a5a84",
-      "hours_worked": 104.9,
-      "avg_start_time": "2023-05-01T06:10:36.518000",
-      "avg_end_time": "2023-05-05T15:04:53.203000",
-      "consumption": 357.0,
-      "consumption_unit": "kWh"
-    },
-    {
-      "machine_id": "174d96d9",
-      "hours_worked": 104.37,
-      "avg_start_time": "2023-05-01T06:25:50.996000",
-      "avg_end_time": "2023-05-05T14:47:46.059000",
-      "consumption": 278.4,
-      "consumption_unit": "kWh"
-    },
-    {
-      "machine_id": "046a1338",
-      "hours_worked": 105.49,
-      "avg_start_time": "2023-05-01T07:58:08.928000",
-      "avg_end_time": "2023-05-05T17:27:20.395000",
-      "consumption": 144.24,
-      "consumption_unit": "L"
-    },
-    {
-      "machine_id": "65b825ac",
-      "hours_worked": 103.67,
-      "avg_start_time": "2023-05-01T07:43:35.147000",
-      "avg_end_time": "2023-05-05T15:23:46.443000",
-      "consumption": 45.07,
-      "consumption_unit": "L"
-    },
-    {
-      "machine_id": "72f3c167",
-      "hours_worked": 105.19,
-      "avg_start_time": "2023-05-01T06:34:05.655000",
-      "avg_end_time": "2023-05-05T15:45:25.989000",
-      "consumption": 111.56,
-      "consumption_unit": "L"
-    },
-    {
-      "machine_id": "43215c19",
-      "hours_worked": 105.28,
-      "avg_start_time": "2023-05-01T05:58:32.416000",
-      "avg_end_time": "2023-05-05T15:15:06.157000",
-      "consumption": 163.51,
-      "consumption_unit": "L"
-    },
-    {
-      "machine_id": "3771cc43",
-      "hours_worked": 106.12,
-      "avg_start_time": "2023-05-01T07:04:59.474000",
-      "avg_end_time": "2023-05-05T17:12:19.359000",
-      "consumption": 246.97,
-      "consumption_unit": "kWh"
-    },
-    {
-      "machine_id": "9e69c463",
-      "hours_worked": 105.67,
-      "avg_start_time": "2023-05-01T06:59:16.424000",
-      "avg_end_time": "2023-05-05T16:39:36.709000",
-      "consumption": 98.88,
-      "consumption_unit": "L"
+      "average_start": "07:03:00",
+      "average_end": "16:06:00",
+      "total_hours": 45.32,
+      "consumption": 495.67
     },
     {
       "machine_id": "ab13141f",
-      "hours_worked": 105.99,
-      "avg_start_time": "2023-05-01T06:26:14.590000",
-      "avg_end_time": "2023-05-05T16:25:32.605000",
-      "consumption": 328.09,
-      "consumption_unit": "kWh"
+      "average_start": "06:08:00",
+      "average_end": "16:03:00",
+      "total_hours": 49.6,
+      "consumption": 1567.93
     },
     {
-      "machine_id": "3ec3e26c",
-      "hours_worked": 104.1,
-      "avg_start_time": "2023-05-01T07:29:12.646000",
-      "avg_end_time": "2023-05-05T15:35:27.364000",
-      "consumption": 308.56,
-      "consumption_unit": "kWh"
+      "machine_id": "fdf0c409",
+      "average_start": "07:02:00",
+      "average_end": "16:08:00",
+      "total_hours": 43.48,
+      "consumption": 158.82
     },
     {
-      "machine_id": "b151f3cf",
-      "hours_worked": 105.89,
-      "avg_start_time": "2023-05-01T06:23:44.366000",
-      "avg_end_time": "2023-05-05T16:17:15.838000",
-      "consumption": 401.77,
-      "consumption_unit": "kWh"
+      "machine_id": "06c13c84",
+      "average_start": "07:03:00",
+      "average_end": "16:01:00",
+      "total_hours": 46.89,
+      "consumption": 846.04
     },
     {
-      "machine_id": "7a13af83",
-      "hours_worked": 105.63,
-      "avg_start_time": "2023-05-01T06:53:02.547000",
-      "avg_end_time": "2023-05-05T16:30:33.453000",
-      "consumption": 148.78,
-      "consumption_unit": "L"
-    },
-    {
-      "machine_id": "b878cb5b",
-      "hours_worked": 104.82,
-      "avg_start_time": "2023-05-01T06:25:03.933000",
-      "avg_end_time": "2023-05-05T15:14:31.409000",
-      "consumption": 23.3,
-      "consumption_unit": "L"
+      "machine_id": "3771cc43",
+      "average_start": "06:11:00",
+      "average_end": "16:10:00",
+      "total_hours": 47.89,
+      "consumption": 1148.59
     },
     {
       "machine_id": "39094f50",
-      "hours_worked": 103.11,
-      "avg_start_time": "2023-05-01T08:19:05.764000",
-      "avg_end_time": "2023-05-05T15:25:54.746000",
-      "consumption": 21.0,
-      "consumption_unit": "L"
+      "average_start": "07:07:00",
+      "average_end": "15:05:00",
+      "total_hours": 40.84,
+      "consumption": 101.92
+    },
+    {
+      "machine_id": "65b825ac",
+      "average_start": "07:01:00",
+      "average_end": "15:02:00",
+      "total_hours": 43.11,
+      "consumption": 253.29
+    },
+    {
+      "machine_id": "174d96d9",
+      "average_start": "06:10:00",
+      "average_end": "16:04:00",
+      "total_hours": 49.55,
+      "consumption": 1704.71
+    },
+    {
+      "machine_id": "046a1338",
+      "average_start": "07:10:00",
+      "average_end": "17:01:00",
+      "total_hours": 47.27,
+      "consumption": 786.17
+    },
+    {
+      "machine_id": "72f3c167",
+      "average_start": "06:08:00",
+      "average_end": "16:02:00",
+      "total_hours": 46.49,
+      "consumption": 504.87
+    },
+    {
+      "machine_id": "f0a69475",
+      "average_start": "07:07:00",
+      "average_end": "15:08:00",
+      "total_hours": 43.05,
+      "consumption": 636.68
+    },
+    {
+      "machine_id": "7a13af83",
+      "average_start": "07:08:00",
+      "average_end": "16:02:00",
+      "total_hours": 46.51,
+      "consumption": 797.26
+    },
+    {
+      "machine_id": "b878cb5b",
+      "average_start": "06:09:00",
+      "average_end": "16:01:00",
+      "total_hours": 45.36,
+      "consumption": 115.5
+    },
+    {
+      "machine_id": "b151f3cf",
+      "average_start": "06:07:00",
+      "average_end": "15:07:00",
+      "total_hours": 46.06,
+      "consumption": 2221.45
+    },
+    {
+      "machine_id": "8645afde",
+      "average_start": "07:09:00",
+      "average_end": "15:11:00",
+      "total_hours": 42.12,
+      "consumption": 199.64
+    },
+    {
+      "machine_id": "3ec3e26c",
+      "average_start": "07:07:00",
+      "average_end": "16:08:00",
+      "total_hours": 45.03,
+      "consumption": 1716.9
+    },
+    {
+      "machine_id": "43215c19",
+      "average_start": "07:05:00",
+      "average_end": "15:08:00",
+      "total_hours": 44.24,
+      "consumption": 860.18
+    },
+    {
+      "machine_id": "38de4d48",
+      "average_start": "07:04:00",
+      "average_end": "16:10:00",
+      "total_hours": 43.55,
+      "consumption": 487.3
+    },
+    {
+      "machine_id": "ae6a5a84",
+      "average_start": "06:06:00",
+      "average_end": "16:04:00",
+      "total_hours": 46.78,
+      "consumption": 1870.94
+    },
+    {
+      "machine_id": "9e69c463",
+      "average_start": "06:06:00",
+      "average_end": "16:05:00",
+      "total_hours": 46.98,
+      "consumption": 454.91
     }
   ],
-  "day_highest_diesel_consumption": "2023-05-01",
-  "day_highest_electric_consumption": "2023-05-02"
+  "peak_consumption_days": { "diesel": "2023-05-01", "electric": "2023-05-03" },
+  "efficiency_metrics": {
+    "most_efficient": "b151f3cf",
+    "least_efficient": "39094f50",
+    "avg_consumption_per_hour": 18.22
+  }
 }

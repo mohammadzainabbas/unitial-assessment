@@ -79,7 +79,7 @@ def calculate_efficiency_metrics(metrics: List[dict]) -> dict:
         "least_efficient": min(efficiencies, key=lambda x: x[1])[0]
         if efficiencies
         else None,
-        "average_hourly": round(sum(x[1] for x in efficiencies) / len(efficiencies), 2)
+        "avg_consumption_per_hour": round(sum(x[1] for x in efficiencies) / len(efficiencies), 2)
         if efficiencies
         else 0,
     }
