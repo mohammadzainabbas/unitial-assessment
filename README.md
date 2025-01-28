@@ -1,5 +1,5 @@
 <div align="center"> 
-    <h5> Machine Analysis <code>API</code> 💻 </h5>
+    <h2> Machine Analysis <code>API</code> 💻 </h2>
 </div>
 
 #
@@ -78,16 +78,15 @@ cd unitial-assessment/
 In order to run the server with `uv`, you need to run the following command:
 
 ```bash
-uv pip install -r pyproject.toml
 uv sync
-uvicorn app.main:app --host 0.0.0.0 --port 8000
+uv run -- uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
 or with `docker`:
 
 ```bash
 docker build -t unitial-assessment .
-docker run -p 8000:8000 unitial-assessment
+docker run --rm -p 8000:8000 unitial-assessment
 ```
 
 ## API Usage
@@ -159,6 +158,9 @@ Response:
 ```
 
 2. Use `machines.json` and `data.json` files:
+
+> [!CAUTION]
+> Make sure that `machines.json` and `data.json` are in current directory, before running the following `curl` command.
 
 Request:
 
