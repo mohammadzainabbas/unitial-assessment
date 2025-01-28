@@ -26,4 +26,6 @@ def test_analysis():
     assert response.status_code == 200
     result = response.json()
     assert result['machine_metrics'][0]['consumption'] == 40.0
+    assert result['machine_metrics'][0]['total_hours'] == 2
+    assert result['peak_consumption_days']['electric'] == "2023-01-01"
     assert result['efficiency_metrics']['most_efficient'] == "test1"
