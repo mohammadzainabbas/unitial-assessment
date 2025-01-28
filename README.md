@@ -1,36 +1,63 @@
-# Machine Analysis API
+<div align="center"> 
+    <h5> Machine Analysis <code>API</code> 💻 </h5>
+</div>
 
-A REST API for processing machines' data and calculating operational KPIs. This mini project was done as an assessment for [`Unitial Tech`](https://www.unitial.tech/).
+#
 
-## Features
-- Average start/end times per machine
-- Total operational hours
-- Fuel/electricity consumption analysis
-- Peak consumption day detection
-- Efficiency rankings
+> [!NOTE]
+> This mini project was done as an assessment for [`Unitial Tech`](https://www.unitial.tech/).
 
-## Requirements
+<div align="center">
 
-You need one of the following tools to run this project:
+<table>
+  <tr>
+    <td><strong>CI</strong></td>
+    <td>
+      <a href="https://github.com/mohammadzainabbas/unitial-assessment/actions/workflows/ci.yml">
+        <img src="https://github.com/mohammadzainabbas/unitial-assessment/actions/workflows/ci.yml/badge.svg" alt="CI">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Meta</strong></td>
+    <td>
+      <a href="https://github.com/mohammadzainabbas/unitial-assessment">
+        <img src="https://img.shields.io/badge/%F0%9F%A5%9A-Hatch-4051b5.svg" alt="Hatch project">
+      </a>
+      <a href="https://github.com/astral-sh/uv">
+        <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json" alt="uv">
+      </a>
+      <a href="https://github.com/python/mypy">
+        <img src="https://img.shields.io/badge/types-Mypy-blue.svg" alt="types - Mypy">
+      </a>
+      <a href="https://spdx.org/licenses/">
+        <img src="https://img.shields.io/badge/license-MIT-9400d3.svg" alt="License - MIT">
+      </a>
+    </td>
+  </tr>
+</table>
 
-- [`docker`](https://www.docker.com/)
-- [`uv`](https://github.com/astral-sh/uv)
+</div>
 
-## Installation
+> [!IMPORTANT]
+>  This repository contains code for a REST API for processing machines' data and calculating operational KPIs. The API provides the following functionalities:
+>
+> - [x] Average start/end times per machine
+> - [x] Total operational hours
+> - [x] Fuel/electricity consumption analysis
+> - [x] Peak consumption day detection
+> - [x] Efficiency rankings
 
-### Install `uv`
-
-Checkout detailed installation instructions [here](https://docs.astral.sh/uv/getting-started/installation/). For a quick installation, run the following command:
-
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-### Install `docker`
-
-Follow the instructions [here](https://docs.docker.com/get-docker/).
+#
 
 ## Getting Started
+
+### Prerequisites
+
+You need one of the following tools to run this project
+
+- Install [`docker`](https://docs.docker.com/get-docker/)
+- Install [`uv`](https://docs.astral.sh/uv/getting-started/installation/)
 
 ### Clone the repository
 
@@ -67,23 +94,71 @@ docker run -p 8000:8000 unitial-assessment
 
 ### Documentation
 
-You can access the API documentation at `http://localhost:8000/docs`.
+After running the server, you can access the API documentation at [`http://localhost:8000/docs`](http://localhost:8000/docs).
 
 ### Examples
 
-In order to analyze the machines' data, you need to provide the machines' data and the data to be analyzed. The data should be in the following format:
+In order to analyze the machines' data, you need to provide the machines' data and the data to be analyzed. The data should be in `json` format. Refer to the following examples to see how to use the API.
 
->[!CAUTION]
+> [!CAUTION]
 > `curl` and `jq` are required to run the following commands.
 
 1. Simple json data:
 
-```bash
+Request:
 
+```bash
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{
+    "machines": [
+      {
+        "id": "9174277a",
+        "manufacturer": "Caterpillar",
+        "type": "excavator",
+        "fuel_type": "electric",
+        "battery_size": 115
+      }
+    ],
+    "data": [
+      {
+        "timestamp": 1683105330180,
+        "machine_id": "9174277a",
+        "battery_SoC": 0.7795528149
+      },
+      {
+        "timestamp": 1683105335180,
+        "machine_id": "9174277a",
+        "battery_SoC": 0.7000000000
+      }
+    ]
+  }' \
+  http://127.0.0.1:8000/analyze
+```
+
+Response:
+
+```json
+{
+  "machine_metrics": [
+    {
+      "machine_id": "9174277a",
+      "average_start": "09:15:00",
+      "average_end": "09:15:00",
+      "total_hours": 0.0,
+      "consumption": 9.15
+    }
+  ],
+  "peak_consumption_days": { "diesel": null, "electric": "2023-05-03" },
+  "efficiency_metrics": {
+    "most_efficient": null,
+    "least_efficient": null,
+    "avg_consumption_per_hour": 0
+  }
+}
 ```
 
 2. Use `machines.json` and `data.json` files:
-
 
 Request:
 
